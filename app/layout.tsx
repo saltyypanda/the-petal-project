@@ -15,16 +15,15 @@ export default function RootLayout({
   return (
     <html data-theme="petal" lang="en">
       <body className="bg-base-100 text-neutral">
-        <div className="fixed navbar bg-base-100">
+        <div className="fixed navbar z-[100] bg-base-100">
           <div className="flex-1">
-            <a className="btn btn-ghost text-3xl font-heading m-3">
+            <a className="btn btn-ghost m-3">
               <Image
                 src="/flowers.png"
                 alt="The Petal Project Logo"
                 width={50}
                 height={50}
               />
-              The Petal Project
             </a>
           </div>
           <div className="flex-none mx-3">
