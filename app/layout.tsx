@@ -14,8 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="petal" lang="en">
-      <body className="bg-background text-neutral">
-        <div className="fixed navbar bg-background">
+      <body className="bg-base-100 text-neutral">
+        <div className="fixed navbar bg-base-100">
           <div className="flex-1">
             <a className="btn btn-ghost text-3xl font-heading m-3">
               <Image
