@@ -28,8 +28,8 @@ export default {
           "primary": "#89CFF0",
           "secondary": "#4A90E2",
           "accent": "#F4C542",
-          "neutral": "#A9A9A9",
-          "calm": "#B5CDA3",
+          "neutral": "#35332C",
+          "info": "#B5CDA3",
           "base-100": "#F8F7F4",
         }
       }
